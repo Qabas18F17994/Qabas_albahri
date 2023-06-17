@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".u_rent_car">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/booking_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rent Cars"
+            android:background="@drawable/heder"
+            android:fontFamily="@font/c"
+            android:gravity="center"
+            android:padding="16dp"
+
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/rc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/candal"
+            android:text="place "
+            android:textAlignment="center"
+            android:textColor="@color/mggg"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/rc_img"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/uplode_icon2"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="center"/>
+
+
+
+
+        <TextView
+            android:text="ID "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/rc_id"
+            android:text="id "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+
+        <TextView
+            android:text="Company "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/rc_company"
+            android:text="company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:fontFamily="@font/c"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:text="Information "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/rc_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="information"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:text="Instructions "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/rc_instructions"
+            android:text="instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+
+        <TextView
+            android:text="Price "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/rc_price"
+            android:text="price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:text="Day From "
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                />
+
+            <Button
+                android:id="@+id/RC_dayFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+               android:background="@color/mg"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:text="Day To "
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                />
+
+            <Button
+                android:id="@+id/RC_dayto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:background="@color/mgg"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rc_totaldays"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+        />
+
+
+        <TextView
+            android:id="@+id/rc_totalprice"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+           />
+
+
+        <Button
+            android:id="@+id/B_booked_rc"
+            android:layout_width="match_parent"
+            android:layout_height="66dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/booked_b"
+            android:fontFamily="@font/c"
+            android:src="@drawable/check_icon"
+            android:text=" BOOKED"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:tint="@color/black" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

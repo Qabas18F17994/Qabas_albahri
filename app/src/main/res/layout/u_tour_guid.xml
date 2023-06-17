@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".u_tour_guid">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/booking_type_tg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tour Guide"
+            android:background="@drawable/heder"
+            android:fontFamily="@font/c"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="ID "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="id "
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Tour Guide Name"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="Tour Guide Name"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="email"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Phone "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="phone"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Gender "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="gender"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Information  "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+        <TextView
+            android:id="@+id/TGG_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:hint="Information"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="Price for one person"
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+
+        <TextView
+            android:id="@+id/TGG_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:hint="price "
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:text="Day From "
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                 />
+
+            <Button
+                android:id="@+id/TGG_dayFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:background="@color/mg"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text=" Number of people "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/quintityADD"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/plus" />
+
+
+            <TextView
+                android:id="@+id/quintity"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/c"
+                android:gravity="center"
+                android:text="1 "
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/quintityNIG"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/negative"
+               />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TGG_totalprice"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text=" price "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/B_booked_TGG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/booked_b"
+            android:textStyle="bold"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="booked"
+            android:textColor="@color/black"
+            android:textSize="20sp"  />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

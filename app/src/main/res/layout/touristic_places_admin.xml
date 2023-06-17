@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".touristic_places_admin">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/heder"
+        android:focusable="false"
+        app:iconifiedByDefault="false"
+
+        app:queryHint="Search .."
+        app:searchHintIcon="@null"
+        app:searchIcon="@drawable/search_icon" />
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/touristplacess_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Search"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Butoon_uplode_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="@color/s"
+        android:src="@drawable/add_icon"
+        android:tint="@color/black" />
+
+</RelativeLayout>

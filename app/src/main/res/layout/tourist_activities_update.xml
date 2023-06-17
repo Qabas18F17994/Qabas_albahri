@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray"
+    tools:context=".tourist_activities_update">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/candal"
+            android:text="All the data should updated even the image "
+            android:textAlignment="center"
+            android:textColor="@color/rred"
+            android:textSize="9sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/upd_activity_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/candal"
+            android:text="Tourist Activities "
+            android:textAlignment="center"
+            android:textColor="@color/mggg"
+            android:textSize="30sp"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/upd_activity_img"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/uplode_icon2"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="center"/>
+
+
+        <EditText
+            android:id="@+id/upd_activity_id"
+            android:text="id "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <EditText
+            android:id="@+id/upd_activity_location"
+            android:text="location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/upd_activity_information"
+            android:text="information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/upd_activity_instructions"
+            android:text="instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+
+
+        <EditText
+            android:id="@+id/upd_activity_price"
+            android:text="price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="16dp"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:text="Day  "
+                android:textColor="@color/black"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/TGG_dayFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/c"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/upldd_activity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/mg"
+            android:text="save"
+            android:background="@drawable/costom_button"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

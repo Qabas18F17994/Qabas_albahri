@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".tour_gide_information">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+        <TextView
+            android:text="Add Information About You.."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:fontFamily="@font/c"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:background="@drawable/color_ofheader"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:text="Id "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TG_id"
+            android:text="id "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:text="Tour Guide Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TG_name"
+            android:text="Tour Guide Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <TextView
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/TG_email"
+            android:text="email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:fontFamily="@font/c"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:text="Phone "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/TG_phone"
+            android:text="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:fontFamily="@font/c"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:text="Gender "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/TG_gender"
+            android:text="gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:text="Information  "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/TG_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:text="Price for one person"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/TG_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+        <Button
+            android:id="@+id/B_update_TG"
+            android:text=" update "
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+           android:background="@drawable/booked_b"
+            android:src="@drawable/check_icon"
+            android:tint="@color/black" />
+        <TextView
+            android:text="Allow to enter your information once only"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="19dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/rred"
+            />
+        <Button
+            android:id="@+id/B_add_TG"
+            android:text=" Enter  "
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/booked_b"
+            android:src="@drawable/check_icon"
+            android:tint="@color/black" />
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

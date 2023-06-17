@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recyclerview_Ecard"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginVertical="10dp"
+    android:layout_marginHorizontal="10dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/RView_imgE"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:padding="8dp"
+            android:src="@drawable/uplode_icon2"
+            app:shapeAppearanceOverlay="@style/r" />
+
+        <TextView
+            android:id="@+id/RView_NameE"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/RView_imgE"
+            android:fontFamily="@font/c"
+            android:text="place name "
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/RView_IDE"
+
+            android:layout_width="93dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/RView_NameE"
+            android:fontFamily="@font/c"
+            android:text="ID "
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/RView_LocationE"
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RView_NameE"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="19dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/RView_imgE"
+            android:fontFamily="@font/c"
+            android:text="Location"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/RView_informationE"
+            android:layout_width="140dp"
+            android:layout_height="12dp"
+            android:layout_below="@+id/RView_NameE"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="24dp"
+            android:layout_toEndOf="@+id/RView_imgE"
+            android:maxLines="0"
+            android:text="description "
+            android:textSize="20sp" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

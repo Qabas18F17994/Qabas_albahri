@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@color/mg"
+    tools:context=".users_add">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="374dp"
+        android:layout_height="645dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="22dp"
+
+        android:layout_marginEnd="0dp"
+
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/custom_edittext"
+        android:padding="24dp"
+        app:cardCornerRadius="36dp"
+        app:cardElevation="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="656dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <TextView
+                android:text="Add users"
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/c"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:textStyle="bold"  />
+
+            <EditText
+                android:id="@+id/IDTG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/custom_edittext"
+                android:fontFamily="sans-serif-light"
+                android:hint=" ID  "
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/mgg"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/fullnameTG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_edittext"
+                android:fontFamily="sans-serif-light"
+                android:hint="full fame "
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/mgg"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emilTG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_edittext"
+                android:fontFamily="sans-serif-light"
+                android:hint="email"
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/mgg"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phoneTG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/custom_edittext"
+                android:fontFamily="sans-serif-light"
+                android:hint="phone "
+                android:padding="8dp"
+                android:textColor="@color/black"
+                android:textColorHighlight="@color/mgg"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textpassword2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                android:layout_marginTop="10dp"
+                app:counterMaxLength="10"
+                app:endIconMode="password_toggle"
+                app:endIconTint="#000000"
+                app:hintEnabled="false"
+                app:startIconDrawable="@drawable/lock_icon">
+
+                <EditText
+                    android:id="@+id/password2TG"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/custom_edittext"
+                    android:fontFamily="@font/c"
+
+                    android:hint="Password "
+                    android:inputType="textPassword"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:counterEnabled="true"
+
+                    />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+            <Spinner
+                android:id="@+id/type2TG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_baground"
+                android:contentDescription="select_type "
+                android:dropDownVerticalOffset="50dp"
+                android:ems="10"
+                android:popupBackground="@drawable/popup_spanner"
+
+                />
+
+            <Spinner
+                android:id="@+id/gender2TG"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/spinner_baground"
+                android:contentDescription="select_gender"
+                android:dropDownVerticalOffset="50dp"
+                android:ems="10"
+                android:popupBackground="@drawable/popup_spanner"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/siginTG"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:backgroundTint="@color/mg"
+                android:background="@drawable/costom_button"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:freezesText="false"
+                android:text="add" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

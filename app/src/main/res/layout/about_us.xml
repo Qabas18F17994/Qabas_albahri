@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".about_us">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/candal"
+            android:text="About us  "
+            android:textAlignment="center"
+            android:textColor="@color/mggg"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="The Omani guide application is an Omani application supported by the Ministry of Culture and Tourism that contributes to the promotion of domestic tourism in Oman by providing all services in one platform and in a better way."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="1dp"
+            android:gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+
+
+        <TextView
+            android:text="For more information, contact us by :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:padding="1dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/color_ofheader"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+        <Button
+            android:id="@+id/ins"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/inst"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/web"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/webb"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+
+        <Button
+            android:id="@+id/twe"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/twiter"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/phone"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:text="Phone: +968 22088000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:padding="1dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ba"
+    tools:context=".tg_booking_list">
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="12dp"
+        android:background="@drawable/heder"
+        android:focusable="false"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search...."
+        app:searchHintIcon="@null"
+        app:searchIcon="@drawable/search_icon" />
+
+    <TextView
+        android:id="@+id/d"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/heder"
+        android:fontFamily="@font/c"
+        android:gravity="center"
+        android:text="Tour Guide Booking List"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/home_button"
+        android:layout_width="43dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/home_icon" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:maxLines="0"
+ />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/user_booking_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Search"
+        android:layout_marginTop="3dp"
+        android:scrollbars="vertical"
+        />
+
+
+</RelativeLayout>

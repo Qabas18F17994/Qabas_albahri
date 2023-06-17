@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".u_ta">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/booking_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/heder"
+            android:fontFamily="@font/c"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Tourist Activities"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/AA_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/candal"
+            android:text="place "
+            android:textAlignment="center"
+            android:textColor="@color/mggg"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/AA_img"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:src="@drawable/uplode_icon2"
+            android:padding="8dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="1dp"
+            android:text="ID "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+
+
+        <TextView
+            android:id="@+id/AA_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="id "
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:text="Location "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/AA_location"
+            android:text="Location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:fontFamily="@font/c"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            />
+
+
+        <TextView
+            android:text="Information "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/AA_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="information"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <TextView
+            android:text="Instructions "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/AA_instructions"
+            android:text="instructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+
+        <TextView
+            android:text="Price "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/AA_price"
+            android:text="price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:text="DAY "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="1dp"
+            android:layout_gravity="center"
+            android:textSize="23dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/AA_day"
+            android:text="day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+
+        <TextView
+            android:id="@+id/AA_totalprice"
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:fontFamily="@font/c"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text=" Number of people "
+            android:textColor="@color/black"
+            android:textSize="23dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="3">
+
+            <ImageView
+                android:id="@+id/quintityADD"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/plus" />
+
+
+            <TextView
+                android:id="@+id/quintity"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:fontFamily="@font/c"
+                android:gravity="center"
+                android:text="1 "
+                android:textColor="@color/black"
+                android:textSize="23dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/quintityNIG"
+                android:layout_gravity="center"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/negative"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/AA_booked"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/booked_b"
+           android:textStyle="bold"
+            android:fontFamily="@font/c"
+            android:padding="16dp"
+            android:text="booked"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+
+
+
+

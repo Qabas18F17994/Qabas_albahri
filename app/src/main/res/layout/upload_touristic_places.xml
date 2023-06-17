@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ba"
+    tools:context=".upload_touristic_places">
+
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginBottom="50dp"
+              android:layout_marginTop="5dp"
+              android:layout_gravity="center_horizontal"
+              android:padding="20dp">
+
+
+              <TextView
+                  android:id="@+id/textView"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:fontFamily="@font/candal"
+                  android:textAlignment="center"
+                  android:text="Add Touristic Places"
+                  android:textColor="@color/mggg"
+                  android:textSize="30sp"
+                  android:textStyle="bold" />
+              
+              <ImageView
+                  android:id="@+id/upolode_img"
+                  android:layout_width="match_parent"
+                  android:layout_height="200dp"
+                  android:src="@drawable/uplode_icon2"
+                  android:layout_marginTop="10dp"
+                  android:scaleType="center"/>
+
+
+              <EditText
+                  android:id="@+id/place_id"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/custom_edittext"
+                  android:layout_marginTop="20dp"
+                  android:padding="16dp"
+                  android:hint="place id "
+                  android:gravity="start|center_vertical"
+                  android:textColor="@color/black"
+                  />
+
+              <EditText
+                  android:id="@+id/place_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/custom_edittext"
+                  android:layout_marginTop="20dp"
+                  android:padding="16dp"
+                  android:hint="place name "
+                  android:gravity="start|center_vertical"
+                  android:textColor="@color/black"
+                  />
+
+
+              <EditText
+                  android:id="@+id/place_location"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/custom_edittext"
+                  android:layout_marginTop="20dp"
+                  android:padding="16dp"
+                  android:hint="place location "
+                  android:gravity="start|center_vertical"
+                  android:textColor="@color/black"
+                  />
+
+              <EditText
+                  android:id="@+id/place_information"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/custom_edittext"
+                  android:layout_marginTop="20dp"
+                  android:padding="16dp"
+                  android:hint="place information "
+                  android:gravity="start|center_vertical"
+                  android:textColor="@color/black"
+                  />
+
+              <EditText
+                  android:id="@+id/place_instructions"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:background="@drawable/custom_edittext"
+                  android:layout_marginTop="20dp"
+                  android:padding="16dp"
+                  android:hint="place instructions "
+                  android:gravity="start|center_vertical"
+                  android:textColor="@color/black"
+                  />
+
+
+
+
+
+              <Button
+                  android:id="@+id/add_place"
+                  android:layout_width="match_parent"
+                  android:layout_height="60dp"
+                  android:layout_marginTop="20dp"
+                  android:background="@drawable/costom_button"
+                  android:backgroundTint="@color/mgg"
+                  android:fontFamily="sans-serif-light"
+                  android:freezesText="false"
+                  android:text="add place   "
+                  android:textSize="18sp"
+                  android:textStyle="bold"
+                  app:cornerRadius="20dp" />
+
+
+          </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+

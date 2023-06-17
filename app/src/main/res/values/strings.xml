@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Qabas18F17994</string>
+    <string name="addicon">Image</string>
+    <string name="select_gender">select gender</string>
+    <string name="select_type">select type</string>
+
+    <string-array name="User">
+        <item>USER</item>
+    </string-array>
+
+
+    <string-array name="UserTYPE">
+        <item>ADMIN</item>
+        <item>USER</item>
+        <item>Tour guide</item>
+    </string-array>
+
+    <string-array name="TG">
+        <item>Tour guide</item>
+    </string-array>
+
+    <string-array name="Usergender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_update_tourist_places">update_tourist_places</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
